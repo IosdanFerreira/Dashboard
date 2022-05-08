@@ -1,0 +1,89 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Assistant', sans-serif;
+}
+
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 5.8vw;
+    height: 100vh;
+    background-color: #2D3748;
+    
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    background-color: #6B46C1;
+    width: 5.8vw;
+    height: 11.8vh;
+    cursor: pointer;
+}
+.logo:hover{
+    background-color: #9F7AEA;
+}
+.logo svg{
+    width: 3.5vw;
+}
+.side-options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 5.8vw;
+    height: 70vh;
+}
+.side-options-bars{
+    margin: 4vh 0 2vh 0;
+    width: 3.5vw;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.side-options-bars:hover{
+    background-color: #ffffff;
+    border-radius: 5px;
+    stroke: #6B46C1;
+}
+.side-options-bars svg{
+    width: 1.8vw;
+}
+.side-options-bars svg:hover{
+    stroke: #6B46C1;
+}
+.side-options-folder{
+    width: 3vw;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.side-options-folder svg{
+    width: 1.8vw;
+}
+.side-options-posts{
+    margin: 2vh 0;
+    width: 4vw;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.side-options-posts svg{
+    width: 1.8vw;
+}
+.side-options-page{
+    width: 4vw;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.side-options-page svg{
+    width: 1.8vw;
+}
