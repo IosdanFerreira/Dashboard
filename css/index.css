@@ -7,7 +7,9 @@
     box-sizing: border-box;
     font-family: 'Assistant', sans-serif;
 }
-
+body{
+    display: flex;
+}
 #sidebar{
     display: flex;
     flex-direction: column;
@@ -30,6 +32,9 @@
 .logo svg{
     width: 3.5vw;
 }
+.hamburger-bar{
+    display: none;
+}
 .side-options{
     display: flex;
     flex-direction: column;
@@ -44,46 +49,292 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.side-options-bars:hover{
+    stroke: #6B46C1;
     background-color: #ffffff;
     border-radius: 5px;
-    stroke: #6B46C1;
+    cursor: pointer;
 }
 .side-options-bars svg{
     width: 1.8vw;
-}
-.side-options-bars svg:hover{
     stroke: #6B46C1;
 }
 .side-options-folder{
-    width: 3vw;
+    width: 3.5vw;
     height: 7vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+.side-options-folder:hover{
+    background-color: #ffffff21;
+    border-radius: 5px;
 }
 .side-options-folder svg{
     width: 1.8vw;
 }
 .side-options-posts{
     margin: 2vh 0;
-    width: 4vw;
+    width: 3.5vw;
     height: 7vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+.side-options-posts:hover{
+    background-color: #ffffff21;
+    border-radius: 5px;
 }
 .side-options-posts svg{
     width: 1.8vw;
 }
 .side-options-page{
-    width: 4vw;
+    width: 3.5vw;
     height: 7vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+.side-options-page:hover{
+    background-color: #ffffff21;
+    border-radius: 5px;
 }
 .side-options-page svg{
     width: 1.8vw;
+}
+.container{
+    margin: 0;
+    padding: 0;
+}
+header{
+
+    display: flex;
+    align-items: center;
+    width: 94vw;
+    height: 13vh;
+}
+.search{
+    display: flex;
+    align-items: center;
+    width: 32.5vw;
+    height: 6vh;
+    margin: 0 2.5vw;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #a9adb1;
+}
+
+.search button{
+    width: 2.5vw;
+    height: 5vh;
+    border: none;
+    background-color: white;
+    border-radius: 8px;
+    cursor: pointer
+
+
+}
+.search svg{
+    width: 2vw;
+    fill: #CBD5E0;
+}
+.search input{
+    width: 100%;
+    height: 5vh;
+    border-radius: 8px;
+    border: 0;
+    outline: none;
+    margin-left: 0.8vw;
+}
+.search input::placeholder{
+    color: #CBD5E0;
+}
+.perfil{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 44vw;
+    cursor: pointer;
+}
+.perfil-box{
+    width: 16vw;
+    display: flex;
+    align-items: center;
+    padding: 0 1vw;
+    border: none;
+    background-color: white;
+}
+.perfil-box:hover{
+    background-color: #8b8b8b31;
+    border-radius: 10px;
+}
+.perfil-txt{
+    width: 14vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+.name{
+
+    font-weight: 600;
+    height: 2.5vh;
+}
+.type{
+    font-size: 15px;
+    color: #7c7c7c;
+}
+.perfil-img{
+    width: 6vw;
+    height: 7vh;
+    margin: 0;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 0 0 1vw;
+}
+.perfil-img img{
+    margin-top: 9px;
+    width: 100%;
+    transform: scale(1.5);
+}
+.perfil svg{
+    width: 3vw;
+    margin-left: 0.5vw;
+    fill: #a9adb1;
+}
+.header-options{
+    display: flex;
+    justify-content: center;
+    margin: 0 1vw;
+    width: 10vw;
+    height: 8vh;
+}
+
+.notifications{
+    margin: 0 1vw;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.notifications svg{
+    width: 1.8vw;
+    stroke: #a0a1a1;
+}
+.notifications svg:hover{
+    stroke: #3d3d3d;
+}
+.exit{
+    margin: 0 1vw;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.exit svg{
+    width: 1.8vw;
+    stroke: #a0a1a1;
+}
+.exit svg:hover{
+    stroke: #3d3d3d;
+}
+.main-top{
+    display: flex;
+    justify-content: space-between;
+    width: 94vw;
+    height: 23vh;
+
+    
+}
+.dashboard-txt{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 3vw;
+    width: 18vw;
+
+}
+.dashboard-txt1{
+    color: rgb(51, 51, 51);
+    font-size: 39px;
+    font-weight: 600;
+    margin-bottom: 0.3vh;
+}
+.dashboard-txt2{
+    color: #7c7c7c;
+    font-size: 18px;
+}
+.dashboard-buttons{
+    display: flex;
+    align-items: center;
+    width: 37vw;
+    height: 18vh;
+}
+.manage-dashboard{
+    height: 7.5vh;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    width: 15vw;
+    margin-right: 2vw;
+    border: 1px solid #6B46C1
+}
+.manage-dashboard:hover{
+    background-color: #a0a0a028;
+}
+.manage-dashboard svg{
+    stroke: #6B46C1;
+    width: 2vw;
+}
+.manage-dashboard span{
+    color: #6B46C1;
+}
+.create-dashboard{
+    height: 7.5vh;
+    width: 15vw;
+    background-color: #6B46C1;
+    border: none;
+    border-radius: 5px;
+}
+.create-dashboard:hover{
+    background-color: #492f86;
+}
+.create-dashboard svg{
+    width: 2vw;
+}
+.create-dashboard span{
+    color: white;
+}
+.datas{
+    display: flex;
+    justify-content: space-around;
+    height: 20vh;
+
+}
+.students{
+
+}
+.students svg{
+    width: 5vw;
+}
+.students-txt{
+
+}
+.students-txt1{
+
+}
+.students-tx2{
+
+}
+.avarage{
+
+}
+.avarage svg{
+    width: 5vw;
+}
+.underperforming svg{
+    width: 5vw;
+}
+.finished svg{
+    width: 5vw;
 }
