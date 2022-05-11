@@ -14,7 +14,7 @@ body{
     display: flex;
     flex-direction: column;
     width: 5.8vw;
-    height: 100vh;
+    height: inherit;
     background-color: #2D3748;
     
 }
@@ -112,7 +112,7 @@ header{
 
     display: flex;
     align-items: center;
-    width: 94vw;
+    width: 92vw;
     height: 13vh;
 }
 .search{
@@ -241,7 +241,7 @@ header{
 .main-top{
     display: flex;
     justify-content: space-between;
-    width: 94vw;
+    width: 92vw;
     height: 23vh;
 
     
@@ -308,33 +308,152 @@ header{
 .datas{
     display: flex;
     justify-content: space-around;
+    width: 92vw;
     height: 20vh;
-
+    padding: 0 2vw;
 }
 .students{
-
+    display: flex;
+    width: 21vw;
+    height: 20vh;
+    box-shadow: 1px 1px 8px #03030323;
+    border-radius: 7px
 }
 .students svg{
-    width: 5vw;
+    width: 1.7vw;
+    margin-left: 4vw;
+    stroke: #6B46C1;    
 }
 .students-txt{
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 3vw;
+    width: 13vw;
 }
 .students-txt1{
-
+    font-size: 25px;
+    font-weight: bold;
 }
-.students-tx2{
-
+.students-txt2{
+    color: #bdbdbd;
+    font-weight: 400;
 }
 .avarage{
-
+    display: flex;
+    width: 21vw;
+    height: 20vh;
+    box-shadow: 1px 1px 8px #03030323;
+    border-radius: 7px
 }
 .avarage svg{
-    width: 5vw;
+    width: 1.7vw;
+    margin-left: 4vw;
+    stroke: green;
+}
+.avarage-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 3vw;
+    width: 13vw;
+}
+.avarage-txt1{
+    font-size: 25px;
+    font-weight: bold;
+}
+.avarage-txt2{
+    color: #bdbdbd;
+    font-weight: 400;
+}
+.underperforming{
+    display: flex;
+    width: 21vw;
+    height: 20vh;
+    box-shadow: 1px 1px 8px #03030323;
+    border-radius: 7px
 }
 .underperforming svg{
-    width: 5vw;
+    width: 1.7vw;
+    margin-left: 4vw;
+    stroke: red;
+}
+.underperforming-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 3vw;
+    width: 13vw;
+}
+.underperforming-txt1{
+    font-size: 25px;
+    font-weight: bold;
+}
+.underperforming-txt2{
+    color: #bdbdbd;
+    font-weight: 400;
+}
+.underperforming-txt3{
+    color: #bdbdbd;
+    font-weight: 400;
+}
+.finished{
+    display: flex;
+    width: 21vw;
+    height: 20vh;
+    box-shadow: 1px 1px 8px #03030323;
+    border-radius: 7px
 }
 .finished svg{
-    width: 5vw;
+    width: 1.7vw;
+    margin-left: 4vw;
+    stroke: blue;
+}
+.finished-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 3vw;
+    width: 13vw;
+}
+.finished-txt1{
+    font-size: 25px;
+    font-weight: bold;
+}
+.finished-txt2{
+    color: #bdbdbd;
+    font-weight: 400;
+}
+.informations{
+    display: flex;
+    width: 92vw;
+    justify-content: space-around;
+    margin: 5vh 0 0 0;
+    padding-left: 1vw;
+}
+.students-numbers{
+    width: 43vw;
+    border-radius: 4px;
+}
+.students-numbers-graphic{
+    height:50vh;
+    padding: 0;
+    padding: 1vw 1.5vw;
+    border-radius: 6px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.11);
+}
+.students-numbers-graphic span{
+    font-size: 17px;
+    font-weight: 600;
+}
+.students-numbers-img{
+    width: 40vw;
+    height: 35vh;
+    margin-top: 4.5vh;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.students-numbers-img img{
+    width: 100%;
+    height: 100%;
 }
