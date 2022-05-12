@@ -322,8 +322,8 @@
         width:25px;
     }
     .side-bar-config{
-        width:78px;
-        height:73vh;
+        width:51px;
+        height:95%;
     }
     .side-bar-config button{
         width:7vw;
@@ -361,5 +361,121 @@
     .manage-dashboard{
         margin-left: 2vw;
         margin-bottom: 1vh;
+    }
+    .datas{
+        height: auto;
+    }
+    .students{
+        width: 80vw;
+        height: 13vh;
+    }
+    .avarage{
+        width: 80vw;
+        height: 13vh;
+    }
+    .avarage-txt{
+        width:40vw;
+    }
+    .underperforming{
+        width: 80vw;
+        height: 13vh;
+        margin-bottom: 2vh;
+    }
+    .underperforming-txt{
+        width:44vw;
+    }
+    .finished{
+        width: 80vw;
+        height: 13vh;
+    }
+    .finished-txt{
+        width:40vw;
+    }
+    .imformations{
+        padding: 0vw;
+        margin: 5vh 0 0 1vw;
+    }
+    .students-numbers{
+        height: 47vh;
+    }
+    .students-numbers-lections{
+        height: 13vh;
+    }
+    .students-numbers-hours{
+        height: 13vh;
+    }
+    .students-names {
+        width: 82vw;
+        height: 57vh;
+        margin-bottom: 3vh;
+    }
+    .lists-item{
+        width: 82vw;
+    }
+    .list-item-name {
+        width: 55vw;
+        font-size: 24px;
+        margin-left: 5vw;;
+    }
+    .students-type{
+        width: 82vw;
+    }
+    .students-type-img {
+        height: 32vh;
+        width: 79vw;
+    }
+    footer span{
+        font-size: 14px;
+    }
+}
+@media (max-width:414px){
+    .side-bar-config{
+        width: 34px;
+    }
+    .perfil-img {
+        height: 4.5vh;
+        width:9vw;
+    }
+    .dashboard-txt {
+        width: 82vw;
+    }
+    .dashboard-buttons {
+    width: 88vw;
+    height: 13vh;
+    margin:0px;
+    }
+    .manage-dashboard {
+        width: 80vw;
+        height: 6vh;
+    }
+    .manage-dashboard svg {
+        width: 5vw;
+    }
+    .manage-dashboard span {
+        font-size: 19px;
+    }
+    .create-dashboard{
+        width: 80vw;
+        height: 6vh;
+    }
+    .create-dashboard svg{
+        width:5vw;
+    }
+    .create-dashboard span{
+        font-size: 19px;
+    }
+    .students-names-list{
+        height: 45vh;
+    }
+    footer span{
+        font-size: 11px;
+    }
+}
+@media (max-width:360px){
+    .side-bar-config{
+        width: 26px;
+    }
+    .list-item-name{
+        font-size: 20px
     }
 }
