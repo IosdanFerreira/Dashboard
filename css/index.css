@@ -13,7 +13,7 @@ body{
 #sidebar{
     display: flex;
     flex-direction: column;
-    width: 5.8vw;
+    width: 80px;
     height: inherit;
     background-color: #2D3748;
     
@@ -22,7 +22,7 @@ body{
     display: flex;
     justify-content: center;
     background-color: #6B46C1;
-    width: 5.8vw;
+    width: 80px;
     height: 11.8vh;
     cursor: pointer;
 }
@@ -30,7 +30,7 @@ body{
     background-color: #9F7AEA;
 }
 .logo svg{
-    width: 3.5vw;
+    width: 35px;
 }
 .hamburger-bar{
     display: none;
@@ -39,12 +39,12 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 5.8vw;
+    width: 80px;
     height: 70vh;
 }
 .side-options-bars{
     margin: 4vh 0 2vh 0;
-    width: 3.5vw;
+    width: 45px;
     height: 7vh;
     display: flex;
     justify-content: center;
@@ -55,11 +55,11 @@ body{
     cursor: pointer;
 }
 .side-options-bars svg{
-    width: 1.8vw;
+    width: 19px;
     stroke: #6B46C1;
 }
 .side-options-folder{
-    width: 3.5vw;
+    width: 45px;
     height: 7vh;
     display: flex;
     justify-content: center;
@@ -71,11 +71,11 @@ body{
     border-radius: 5px;
 }
 .side-options-folder svg{
-    width: 1.8vw;
+    width: 19px;
 }
 .side-options-posts{
     margin: 2vh 0;
-    width: 3.5vw;
+    width: 45px;
     height: 7vh;
     display: flex;
     justify-content: center;
@@ -87,10 +87,10 @@ body{
     border-radius: 5px;
 }
 .side-options-posts svg{
-    width: 1.8vw;
+    width: 19px;
 }
 .side-options-page{
-    width: 3.5vw;
+    width: 45px;
     height: 7vh;
     display: flex;
     justify-content: center;
@@ -102,25 +102,24 @@ body{
     border-radius: 5px;
 }
 .side-options-page svg{
-    width: 1.8vw;
+    width: 19px;
 }
 .side-bar-config{
-    width: 5.8vw;
-    height: 68vh;
+    width: 80px;
+    height: 73vh;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     cursor: pointer;
-    
 }
 .side-bar-config button{
-    width: 3.5vw;
+    width: 45px;
     height: 7vh;
     background-color: transparent;
     border: none;
 }
 .side-bar-config button svg{
-    width: 2vw;
+    width: 19px;
     stroke: #CBD5E0;
 }
 .side-bar-config button:hover{
@@ -141,8 +140,8 @@ header{
 .search{
     display: flex;
     align-items: center;
-    width: 32.5vw;
-    height: 6vh;
+    width: 450px;
+    height: 40px;
     margin: 0 2.5vw;
     background-color: white;
     border-radius: 8px;
@@ -150,7 +149,7 @@ header{
 }
 
 .search button{
-    width: 2.5vw;
+    width: 19px;
     height: 5vh;
     border: none;
     background-color: white;
@@ -160,7 +159,7 @@ header{
 
 }
 .search svg{
-    width: 2vw;
+    width: 19px;
     fill: #CBD5E0;
 }
 .search input{
@@ -182,7 +181,7 @@ header{
     cursor: pointer;
 }
 .perfil-box{
-    width: 16vw;
+    width: 22vw;
     display: flex;
     align-items: center;
     padding: 0 1vw;
@@ -194,7 +193,7 @@ header{
     border-radius: 10px;
 }
 .perfil-txt{
-    width: 14vw;
+    width: 20vw;
     display: flex;
     flex-direction: column;
     align-items: flex-end;

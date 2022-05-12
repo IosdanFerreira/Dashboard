@@ -1,0 +1,365 @@
+@charset "UTF-8";
+
+@media (max-width:1024px){
+    .perfil{
+        height: 60px;
+    }
+    .perfil-box{
+        height: 60px; 
+    }
+    .perfil-box svg{
+        width: 40px;
+    }
+    .name{
+        font-size: 18px;
+        height:3.5vh;
+    }
+    .notifications svg{
+        width: 25px;
+    }
+    .exit svg{
+        width: 25px;
+    }
+    .main-top{
+        margin-bottom:20px;
+    }
+    .dashboard-buttons{
+        width: 450px;
+    }
+    .manage-dashboard{
+        width: 200px;
+    }
+    .create-dashboard{
+        width: 200px;
+    }
+    .students svg{
+        width: 22px;
+    }
+    .avarage svg{
+        width:22px
+    }
+    .underperforming svg{
+        width:22px;
+        margin-left: 2vw;
+    }
+    .underperforming-txt{
+        width: 14vw;
+    }
+    .finished svg{
+        width: 22px;
+    }
+    .students-numbers-lections svg{
+        width: 22px;
+    }
+    .students-numbers-hours svg{
+        width: 22px;
+    }
+    .students-names{
+        width: 250px;
+    }
+    .students-names-list{
+        height: 350px;
+    }
+    .students-type{
+        height: 457px;
+    }
+}
+@media (max-width:820px){
+    header{
+        width:88vw;
+    }
+    #sidebar{
+        width: 95px;
+    }
+    .logo{
+        width: 95px;
+    }
+    .logo svg{
+        width: 50px;
+    }
+    .side-options{
+        width:95px;
+    }
+    .side-options-bars{
+        width:65px;
+    }
+    .side-options-bars svg{
+        width: 35px;
+    }
+    .side-options-folder{
+        width:65px;
+    }
+    .side-options-folder svg{
+        width:35px;
+    }
+    .side-options-posts{
+        width:65px;
+    }
+    .side-options-posts svg{
+        width:35px;
+    }
+    .side-options-page{
+        width:65px;
+    }
+    .side-options-page svg{
+        width:35px;
+    }
+    .side-bar-config{
+        width:92px;
+        height:73vh;
+    }
+    .side-bar-config button{
+        width:60px;
+    }
+    .side-bar-config button svg{
+        width:35px;
+    }
+    .search button{
+        height:3vh;
+    }
+    .search input{
+        height:3vh;
+    }
+    .perfil-box{
+        width:26vw;
+    }
+    .perfil-txt{
+        height:49px;
+    }
+    .perfil-img{
+        height: 3.5vh;
+    }
+    .main-top{
+        width:88vw;
+    }
+    .manage-dashboard {
+        height: 4.5vh;
+    }
+    .create-dashboard{
+        height: 4.5vh;
+    }
+    .datas{
+        flex-wrap: wrap;
+        width:88vw;
+    }
+    .students{
+        width: 38vw;
+        height: 10vh;
+        margin-bottom:2vh;
+    }
+    .avarage{
+        width: 38vw;
+        height: 10vh;
+        margin-bottom:2vh;
+    }
+    .underperforming{
+        width: 38vw;
+        height: 10vh;
+    }
+    .finished{
+        width: 38vw;
+        height: 10vh;
+    }
+    .underperforming-txt {
+        width: 16vw;
+    }
+    .informations{
+        flex-wrap:wrap;
+        width: 88vw;
+    }
+    .students-numbers {
+        width: 82vw;
+        height: 45vh;
+    }
+    .students-numbers-graphic {
+        width: 81vw;
+        height: 30vh;
+    }
+    .students-numbers-img {
+        width: 82vw;
+        height: 30vh;
+        margin-top:2.5vh;
+    }
+    .students-numbers-img img{
+        width: 79vw;
+        height: 22vh;
+    }
+    .students-numbers-box{
+        margin-top:2vh;
+    }
+    .students-numbers-lections{
+        height: 10vh;
+    }
+    .students-numbers-hours{
+        height: 10vh;
+    }
+    .students-names{
+        width:39vw;
+        height:41vh;
+        margin-left:1vw;
+    }
+    .list-item figure {
+        width: 7vw;
+    }
+    .list-item img {
+        margin-top: 0vh;
+    }
+    .list-item-name{
+        width:22vw;
+        font-size: 23px;
+    }
+    .list-item-number{
+        font-size: 23px;
+    }
+    .students-type{
+        width:38vw;
+        height:41vh;
+    }
+    .students-type-img{
+        height:33vh;
+        width:36vw;
+    }
+    footer{
+        width:88vw;
+        height:9vh;
+    }
+}
+@media (max-width:768px){
+    #sidebar{
+        width: 80px;
+    }
+    .logo{
+        width: 80px;
+    }
+    .logo svg{
+        width: 40px;
+    }
+    .side-options{
+        width:80px;
+    }
+    .side-options-bars{
+        width:55px;
+    }
+    .side-options-bars svg{
+        width: 25px;
+    }
+    .side-options-folder{
+        width:55px;
+    }
+    .side-options-folder svg{
+        width:25px;
+    }
+    .side-options-posts{
+        width:55px;
+    }
+    .side-options-posts svg{
+        width:25px;
+    }
+    .side-options-page{
+        width:55px;
+    }
+    .side-options-page svg{
+        width:25px;
+    }
+    .side-bar-config{
+        width:78px;
+        height:73vh;
+    }
+    .side-bar-config button{
+        width:55px;
+    }
+    .side-bar-config button svg{
+        width:35px;
+    }
+    .perfil-box{
+        width:27vw;
+    }
+    .perfil-box svg{
+        width:30px;
+    }
+    .students-names-list {
+        height: 296px;
+    }
+}
+@media (max-width:540px){
+    header {
+        width: 83vw;
+    }
+    #sidebar{
+        width: 10vw;
+    }
+    .logo{
+        width: 10vw;
+    }
+    .logo svg{
+        width: 40px;
+    }
+    .side-options{
+        width:10vw;
+    }
+    .side-options-bars{
+        width:7vw;
+    }
+    .side-options-bars svg{
+        width: 25px;
+    }
+    .side-options-folder{
+        width:7vw;
+    }
+    .side-options-folder svg{
+        width:25px;
+    }
+    .side-options-posts{
+        width:7vw;
+    }
+    .side-options-posts svg{
+        width:25px;
+    }
+    .side-options-page{
+        width:7vw;
+    }
+    .side-options-page svg{
+        width:25px;
+    }
+    .side-bar-config{
+        width:78px;
+        height:73vh;
+    }
+    .side-bar-config button{
+        width:7vw;
+    }
+    .side-bar-config button svg{
+        width:35px;
+    }
+    .main-top {
+        width: 87.5vw;
+        flex-wrap: wrap;
+    }
+    .perfil-box{
+        width:25vw;
+        justify-content: end;
+    }
+    .perfil-txt{
+        width: 24vw;
+        display: none;
+    }
+    .perfil-img{
+        height: 4.5vh;
+    }
+    .dashboard-txt{
+        width: 30vw;
+    }
+    .dashboard-buttons {
+        width: 244px;
+        height:23vh;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 2vw;
+        margin-top: 4vh;
+    }
+    .manage-dashboard{
+        margin-left: 2vw;
+        margin-bottom: 1vh;
+    }
+}
